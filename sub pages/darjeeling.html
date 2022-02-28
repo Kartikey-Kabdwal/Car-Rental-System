@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .video-fluid {
+  width: 100%;
+  height: auto;
+}
+ .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html,body{
+       width: 100%;
+     height: 100%;
+}
+
+ body {
+     background: #000000;
+}
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h3
+{color: white;}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  background-color:black;
+  color:#000000;
+}
+section{
+  text-align:center;
+}
+
+
+.glow {
+  font-size: 80px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-weight: 550;
+  color: rgba(10, 10, 10, 0.932);
+  text-align : center;
+  animation : glow 0.9s ease-in-out infinite alternate;
+  
+}
+.change
+{
+  animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        filter: hue-rotate(0deg); 
+    }
+    100%
+    {
+        filter: hue-rotate(360deg); 
+    }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FFFAFA, 0 0 20px #FFFAFA, 0 0 30px #7FFF00, 0 0 40px #7FFF00, 0 0 50px #7FFF00, 0 0 60px #7FFF00, 0 0 70px #FFFFFF;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #FFFAFA, 0 0 30px #2afc00, 0 0 40px #FFFAFA#7CFC00, 0 0 50px #7CFC00, 0 0 60px #7CFC00, 0 0 70px #7CFC00, 0 0 80px #FFFFFF;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+ 
+  padding-left: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-left: 10px;
+}
+.container {
+  position: relative;
+  max-width: 1000px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 1000; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.header h2 {
+  text-align: center;
+}
+  </style>
+  <title>Darjeeling</title>
+</head>
+  <body>  
+   <header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://wallpapercave.com/wp/wp6191751.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+        
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://wallpapercave.com/wp/wp6191601.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://wallpapercave.com/wp/wp3784618.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+
+
+      
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <div class="change">
+    <h1 class="glow">DARJEELING</h1>
+  </div>
+    <h3>Darjeeling – Hidden Town in the Himalayan Beauty. If you are feeling cold, a cup of tea can warm you!! Feeling too exhausted, a cup of tea can cool down things!! Feeling depressed, a cup of tea can cheer you up!!</h3>
+  </div>
+</section>
+
+
+     
+<!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="https://wallpapercave.com/wp/wp4508819.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=613052568017502439" height="480" width="430" frameborder="0" scrolling="no" ></iframe>
+
+    <img
+      src="https://wallpapercave.com/wp/wp6191735.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="https://wallpapercave.com/wp/wp3784776.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <iframe src="https://assets.pinterest.com/ext/embed.html?id=364580532340486700" height="650" width="430" frameborder="0" scrolling="no" ></iframe>
+    <img
+      src="https://media.gettyimages.com/photos/female-labor-worker-harvesting-tea-leaves-picture-id503909111?k=6&m=503909111&s=612x612&w=0&h=KJXXQN76SgJqic9LeeTO7jVPualoCTXGRId5mJvC53o="
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="https://wallpapercave.com/wp/wp6191764.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <img
+      src="https://wallpapercave.com/wp/wp6191621.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://wallpapercave.com/wp/wp6191510.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+  
+    <img
+      src="https://wallpapercave.com/wp/wp6191485.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="https://wallpapercave.com/wp/wp6191795.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    <img
+      src="https://wallpapercave.com/wp/wp6191774.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+</div>
+<!-- Gallery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+</script>
+</body>
+  
+</html>

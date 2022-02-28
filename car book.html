@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <title>Select your car</title>
+            <link rel="stylesheet" type="text/css" href="css/style4.css">
+            <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+            <script type="text/javascript" src="javascript/app2.js"></script>
+            <script type="text/javascript" src="javascript/lightslider.js"></script>
+            
+        </head>
+    <body>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script>
+            function popup()
+            {
+                
+                swal({
+  title: "Confirm?",
+  text: "Do you really want to Book this Car",
+  icon: "warning",
+  buttons: true,
+  
+  dangerMode: true,
+})
+.then((willDelete) => {
+    
+        if (willDelete) {
+    swal("Your Car is Successfully Booked", {
+      icon: "success",
+       buttons:"OK" ,
+    })
+    .then(function(){
+        window.location = "main-page.html";
+    });
+  } else {
+    swal("Booking aborted");
+  }
+});
+ } 
+            </script>
+        
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed"><img src="img/bg.jpg" width="100%" height="100%">
+                 </div>
+        
+            </div>
+        </figure>
+       
+        <section class="slider">
+        <ul id="autoWidth" class="cs-hidden">
+           
+            <li class="item-a">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car1.jpg">
+                        <div class="overlay">
+                        
+                        <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Lamborghini Urus</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">20 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-b">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car2.png">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Lamborghini Aventador</a>
+                            <span>S class</span>
+                        </div>
+                        <a href="#" class="Price">40 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-c">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car3.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Ferrari 458</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">25 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-d">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car4.png">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Bugati Chiron</a>
+                            <span>S class</span>
+                        </div>
+                        <a href="#" class="Price">40 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-e">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car6.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Royals Royace</a>
+                            <span> Luxury S class</span>
+                        </div>
+                        <a href="#" class="Price">50 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-f">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car5.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Bentley</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">35 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-g">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car7.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Jaguar U2</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">25 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-h">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car8.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">BMW i8</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">35 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-i">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car9.jpg">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Mercedes RF</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">30 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="item-j">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="img/car/car10.png">
+                        <div class="overlay">
+                            <button class="buy-btn" type="button" onclick="popup()">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <a href="#">Porsche 911 Carrera</a>
+                            <span>A class</span>
+                        </div>
+                        <a href="#" class="Price">35 INR for per KM</a>
+                    </div>
+                </div>
+            </li>
+            
+          </ul>
+        </section>
+        
+       <script type="text/javascript" src="javascript/app1.js"></script>
+    </body>
+</html>

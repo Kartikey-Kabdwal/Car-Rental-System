@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Login Rent smart</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script>
+            function popup()
+            {
+                
+                swal({
+  title: "Success",
+  text: "You are logged in",
+  icon: "success",
+ 
+  dangerMode: true,
+})
+.then(function(){
+        window.location = "main-page.html";
+    });
+ } 
+            </script>
+    <section>
+        <div class="box">
+            <div class="form">
+               <p>Welcome to Rent Smart</p>
+                <h2>Login</h2>
+                <form>
+                   <div class="inputBx">
+                       <input type="text" placeholder="Username">
+                       <img src="icon/user.png" width=6% height=6%>
+                   </div> 
+                   <div class="inputBx">
+                    <input type="password" placeholder="Password">
+                    <img src="icon/lock.png" width=6% height=6%>
+                   </div>
+                    <label class="remember">
+                        <input type="checkbox">Remember Me
+                    </label>
+                    <div class="inputBx">
+                        
+                       
+                        <button class="buy-btn" type="button" onclick="popup()">Login</button>
+                    </div>
+                </form>
+                <p>Forget <a href="#">Password</a></p>
+                <p>Need an <a href="#">Account</a></p>
+            </div>
+        </div>
+    </section>
+</body>    
